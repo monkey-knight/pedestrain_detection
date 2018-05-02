@@ -1,0 +1,24 @@
+{%extends "layout.html"%}
+
+{%block title%}
+Login
+{%endblock%}
+
+{%block body%}
+<h1 class="text-primary">Login Page</h1>
+<form>
+    <div class="form-group">
+        <label for="account">Account</label>
+        <input type="text" class="form-control" id="account" placeholder="Enter account">
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" placeholder="Enter password">
+    </div>
+    <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="check">
+        <label class="form-check-label" for="check">Remember password</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+{%endblock%}
