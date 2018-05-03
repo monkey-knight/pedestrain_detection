@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <head>
+        <!--required meta data-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-</body>
+        <!--bootstrap css-->
+        <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
+        <title>videos</title>
+
+    </head>
+    <body>
+        <a href="#" data-toggle="modal" data-target="#modal">
+            <img src="{{url_for('static', filename='images/index1.jpg')}}">
+        </a>
+        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content" id="test">
+                    <h1>hello</h1>
+                    <!--javascript add images in here-->
+                </div>
+            </div>
+        </div>
+
+        <!--jquery javascript-->
+        <script src="{{url_for('static', filename='js/jquery-slim.min.js')}}" crossorigin="anonymous"></script>
+        <!--popper javascript-->
+        <script src="{{url_for('static', filename='popper.min.js')}}" crossorigin="anonymous"></script>
+        <!--bootstrap javascript-->
+        <script src="{{url_for('static', filename='js/bootstrap.min.js')}}" crossorigin="anonymous"></script>
+    </body>
 </html>
