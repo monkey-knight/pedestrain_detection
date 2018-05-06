@@ -18,11 +18,6 @@ def cameras():
     return render_template("cameras.html")
 
 
-@app.route("/test")
-def test():
-    return render_template("test.html")
-
-
 def generate_camera1(camera):
     """Video streaming generator function."""
     while True:
