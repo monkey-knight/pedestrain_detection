@@ -2,18 +2,14 @@
 import time
 from base_camera2 import BaseCamera
 import os
+from kafka_commucation.consumer import TempConsumer
 
 
 class Camera2(BaseCamera):
-    input_path = '/home/monkeyknight/Pictures/pedestrian/camera2'
-    images = []
+    consumer = TempConsumer("group_id", "localhost:9092", "camera2")
 
     @staticmethod
     def frames():
-        for file in os.listdir(Camera2.input_path):
-            Camera2.images.append(open(os.path.join(Camera2.input_path, file), 'rb').read())
-
-        length = len(Camera2.images)
         while True:
+            yield Camera2.consumer.getonemsg()
             time.sleep(0.1)
-            yield Camera2.images[int(time.time()) % length]

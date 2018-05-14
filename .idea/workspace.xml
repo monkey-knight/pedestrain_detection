@@ -3,12 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="43f3a327-4e09-43ae-a874-57af16a66c8d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/index1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/index1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/index2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/index2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/index3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/index3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camera1.py" beforeDir="false" afterPath="$PROJECT_DIR$/camera1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camera2.py" beforeDir="false" afterPath="$PROJECT_DIR$/camera2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camera3.py" beforeDir="false" afterPath="$PROJECT_DIR$/camera3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camera4.py" beforeDir="false" afterPath="$PROJECT_DIR$/camera4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detection/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/detection/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/test.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+            <state relative-caret-position="646">
+              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
               <folding>
                 <element signature="e#24#92#0" expanded="true" />
               </folding>
@@ -31,25 +31,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base_camera1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base_camera1.py">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/detection/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="55" column="16" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="16" />
+            <state relative-caret-position="646">
+              <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#25#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base_camera2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base_camera2.py">
+      <file leaf-file-name="producer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kafka_commucation/producer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1995">
-              <caret line="106" selection-start-line="106" selection-end-line="106" />
+            <state relative-caret-position="456">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="msg.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kafka_commucation/msg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="consumer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kafka_commucation/consumer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,8 +79,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="89" column="76" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="76" />
+            <state relative-caret-position="912">
+              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -67,8 +88,8 @@
       <file leaf-file-name="camera2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/camera2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+            <state relative-caret-position="190">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding>
                 <element signature="e#24#35#0" expanded="true" />
               </folding>
@@ -79,8 +100,8 @@
       <file leaf-file-name="camera3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/camera3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+            <state relative-caret-position="190">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding>
                 <element signature="e#24#35#0" expanded="true" />
               </folding>
@@ -91,8 +112,8 @@
       <file leaf-file-name="camera4.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/camera4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="228">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#24#35#0" expanded="true" />
               </folding>
@@ -103,8 +124,8 @@
       <file leaf-file-name="camera1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/camera1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="209">
+              <caret line="14" column="27" selection-start-line="12" selection-start-column="8" selection-end-line="14" selection-end-column="27" />
               <folding>
                 <element signature="e#24#35#0" expanded="true" />
               </folding>
@@ -130,6 +151,7 @@
       <find>video_feed</find>
       <find>Camera1</find>
       <find>gen</find>
+      <find>group_id</find>
     </findStrings>
     <replaceStrings>
       <replace>carouselIndicators</replace>
@@ -176,28 +198,32 @@
         <option value="$PROJECT_DIR$/detection/detection_example.py" />
         <option value="$PROJECT_DIR$/detection/image_grab_example.py" />
         <option value="$PROJECT_DIR$/detection/kafka_example.py" />
-        <option value="$PROJECT_DIR$/detection/run.py" />
         <option value="$PROJECT_DIR$/templates/cameras.html" />
         <option value="$PROJECT_DIR$/base_camera2.py" />
         <option value="$PROJECT_DIR$/base_camera3.py" />
         <option value="$PROJECT_DIR$/base_camera4.py" />
-        <option value="$PROJECT_DIR$/camera1.py" />
         <option value="$PROJECT_DIR$/base_camera1.py" />
+        <option value="$PROJECT_DIR$/static/css/cover.css" />
+        <option value="$PROJECT_DIR$/templates/test.html" />
+        <option value="$PROJECT_DIR$/kafka/producer.py" />
+        <option value="$PROJECT_DIR$/kafka_commucation/msg.py" />
+        <option value="$PROJECT_DIR$/kafka_commucation/producer.py" />
+        <option value="$PROJECT_DIR$/kafka_commucation/consumer.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/camera1.py" />
         <option value="$PROJECT_DIR$/camera2.py" />
         <option value="$PROJECT_DIR$/camera3.py" />
         <option value="$PROJECT_DIR$/camera4.py" />
+        <option value="$PROJECT_DIR$/detection/run.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/static/css/cover.css" />
-        <option value="$PROJECT_DIR$/templates/test.html" />
-        <option value="$PROJECT_DIR$/run.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="735" />
-    <option name="height" value="604" />
+    <option name="x" value="409" />
+    <option name="y" value="121" />
+    <option name="width" value="733" />
+    <option name="height" value="596" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -219,6 +245,11 @@
               <item name="pedestrain_detection" type="b2602c69:ProjectViewProjectNode" />
               <item name="pedestrain_detection" type="462c0819:PsiDirectoryNode" />
               <item name="detection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pedestrain_detection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pedestrain_detection" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka_commucation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pedestrain_detection" type="b2602c69:ProjectViewProjectNode" />
@@ -257,7 +288,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../flask-video-streaming" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -404,30 +435,37 @@
       <option name="project" value="LOCAL" />
       <updated>1524447214736</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Change index.html">
+      <created>1525588571719</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1525588571727</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24827056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24797843" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3298193" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298193" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298193" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298193" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298193" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -435,7 +473,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="kafka producer and consumer" />
-    <option name="LAST_COMMIT_MESSAGE" value="kafka producer and consumer" />
+    <MESSAGE value="Change index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change index.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -443,27 +482,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/cameras.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -612,13 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detection/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="47" column="72" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/cameras.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -630,9 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1995">
           <caret line="106" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -640,9 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1995">
           <caret line="106" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,9 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
           <caret line="55" column="16" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,16 +662,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1995">
           <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test.html" />
+    <entry file="file://$PROJECT_DIR$/static/css/cover.css" />
+    <entry file="file://$PROJECT_DIR$/kafka_commucation/msg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka_commucation/consumer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/camera1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="209">
+          <caret line="14" column="27" selection-start-line="12" selection-start-column="8" selection-end-line="14" selection-end-column="27" />
           <folding>
             <element signature="e#24#35#0" expanded="true" />
           </folding>
@@ -678,8 +696,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/camera2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        <state relative-caret-position="190">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding>
             <element signature="e#24#35#0" expanded="true" />
           </folding>
@@ -688,8 +706,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/camera3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        <state relative-caret-position="190">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding>
             <element signature="e#24#35#0" expanded="true" />
           </folding>
@@ -698,41 +716,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/camera4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="228">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#24#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/test.html">
+    <entry file="file://$PROJECT_DIR$/kafka_commucation/producer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="52" column="66" selection-start-line="52" selection-start-column="66" selection-end-line="52" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/cover.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="25" />
+        <state relative-caret-position="456">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="89" column="76" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="76" />
+        <state relative-caret-position="912">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        <state relative-caret-position="646">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
           <folding>
             <element signature="e#24#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detection/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
+          <folding>
+            <element signature="e#25#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
